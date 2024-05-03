@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- icons cdn -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <title>My portfolio</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <!------------ navigation ------------>
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">
+                    Mihir
+                </p>
+                <span>.</span>
+            </div>
+
+            <div id="myNavMenu" class="nav-menu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                
+            </div>
+
+            <div class="nav-button">
+                <a href="/resume/resume.pdf" download>
+                <button class="btn">download CV <i class="fa-solid fa-file"></i></button>
+                </a>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>    
+            </div>
+        </nav>
+
+        <!------------ Main ------------>
+
+        <main class="wrapper">
+
+        <!------------ Feature Box ------------>
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Mihir Yogi</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText">Frontend Developer</span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Experienced frontend developer with a passion for crafting visually stunning and user-friendly websites.</p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <a href="/resume/resume.pdf" download>
+                        <button class="btn">Download CV <i class="fa-solid fa-file"></i></button>
+                        </a>
+                    </div>
+                    <div class="social_icons">
+                        <a href="https://www.instagram.com/_mihir_yogi/">
+                            <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mihiryogi/?trk=opento_sprofile_topcard">
+                            <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                        </a>
+                        <a href="https://github.com/Mihir-Yogi">
+                            <div class="icon"><i class="fa-brands fa-square-github"></i></div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="featured-image">
+                    <div class="image">
+                            <img src="/images/mihir.jpeg" alt="image is not available!!">
+                            <img src="/images/mihir-removebg.png" alt="image 2 is not available">
+                    </div>
+                </div>
+
+                <div class="scroll-icon-btn">
+                    <a href="#about" class="scroll-btn">
+                        <i class="fa-solid fa-computer-mouse"></i>
+                        <p>scroll down</p>
+                    </a>
+                </div>
+            </section>
+
+        <!------------ About Box ------------>
+            <section class="section" id="about" style="margin-bottom: 20px;">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+
+                        <div class="about-info">
+                            <h3>My introduction</h3>
+                            <p>I have strong proficiency in HTML, CSS, and JavaScript, enabling me to create interactive and engaging web experiences. Additionally, I am experienced in using popular frameworks and libraries to implement advanced features. Alongside frontend development, I have worked with content management systems like WordPress, where I've specialized in theme development and plugin integration. My skills allow me to efficiently manage content and create tailored solutions for clients. Overall, my expertise in frontend technologies and CMS platforms makes me a versatile developer capable of delivering impactful digital solutions.
+                        </p>
+
+                    
+                        <div class="about-btn">
+                            <a href="/resume/resume.pdf" download>
+                                <button class="btn">
+                                    Download CV 
+                                    <i class="fa-solid fa-download"></i>
+                                </button>
+                            </a>
+                        </div>
+                        </div>
+
+                    <div class="col-about">
+                        <div class="skill-box">
+                            <div class="skills-header">
+                                <h3>Frontend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <div class="skills-header">
+                                <h3>Backend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!------------ Projects Box ------------>
+
+        <section class="section" id="projects" style="margin-bottom: 20px;">
+            <div class="top-header">
+                <h1>Projects</h1>
+            </div>
+            <div class="project-container">
+                <div class="project-box">
+                    <div class="image-container">
+                        <img src="/images/cims-project.png">
+                    </div>
+                    
+                    <div class="project-info">
+                        <div class="header-text">
+                            <h3>CIMS (cctv information management system)</h3>
+                            <p>Our project is a CCTV Information Management System website designed for city depots, featuring distinct admin and user sections. Using HTML, CSS, JavaScript, and MySQL, we developed functionalities such as 'Add City' and 'Add City Depot' for streamlined organization. Dedicated forms for NVRs, DVRs, and HDDs, alongside a 'Camera' form with megapixel specifications, enhance data granularity. With AJAX integration, users can submit daily status updates for equipment and generate reports effortlessly. This system enables efficient equipment tracking, fault resolution, and transparent data management for governmental liaison.</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <div class="image-container">
+                        <img src="/images/todo-list.png">
+                    </div>
+                    
+                    <div class="project-info">
+                        <div class="header-text">
+                            <h3>Taskify</h3>
+                            <p>Taskify, developed as part of an internship project at Codsoft, is a meticulously crafted task management tool designed to streamline your workflow. This web application simplifies task organization, promotes collaboration, and offers insightful performance tracking.</p>
+                            <br>
+                            <a href="https://my-taskify.netlify.app/">Take a closer look at Taskify here.</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------ Contact Box ------------>
+
+        <section class="section" id="contact">
+            <div class="top-header">
+                <h1>Recommendations</h1>
+                <span>Do you have any recommendation for me and also any project in your mind , Contact me here</span>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="contact-info">
+                        <h2>Find Me <i class="fa-solid fa-turn-down"></i></h2>
+                        <p><i class="fa-solid fa-envelope"></i> Email: work.mihiryogi@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-control">
+                        <form action="https://formspree.io/f/mvoedbao" method="post">
+                            <div class="form-inputs">
+                                <input type="text" id="name" name="name" class="input-field" placeholder="Name">
+                                <input type="email" id="email" name="email" class="input-field" placeholder="Email">
+                            </div>
+                            <div class="text-area">
+                                <textarea id="Message" name="message" placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button type="submit" class="btn">
+                                    send <i class="fa-solid fa-comment"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        </main>
+
+
+        <!------------ Footer ------------>
+
+        <footer>
+            <div class="top-footer">
+                <p>Mihir Yogi .</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <a href="https://www.instagram.com/_mihir_yogi/">
+                    <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                </a>
+                <a href="https://www.linkedin.com/in/mihiryogi/?trk=opento_sprofile_topcard">
+                    <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                </a>
+                <a href="https://github.com/Mihir-Yogi">
+                    <div class="icon"><i class="fa-brands fa-square-github"></i></div>
+                </a>
+            </div>
+
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Mihir Yogi</a>All rights reserved</p>
+            </div>
+            <i style="position: absolute;margin-top: 200px; font-size: 30px; margin-right: -90%; color: rgb(40,91,212);" class="fa-solid fa-circle-up"></i>
+            
+        </footer>
+    </div>
+    
+</body>
+<!-- scroll revel js -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- main script -->
+<script src="/js/main.js"></script>
+
+<!-- typed js -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+</html>
